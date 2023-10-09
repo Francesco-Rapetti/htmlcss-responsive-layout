@@ -46,7 +46,7 @@ header {
 
 header .container {
     width: 1200px;
-    margin: 16px;
+    padding: 16px 5%;
 }
 
 header nav a {
@@ -79,7 +79,7 @@ section.purple {
 
 main .container {
     max-width: 1200px;
-    padding: 12px;
+    padding: 12px 5%;
 }
 
 /* cards */
@@ -228,6 +228,69 @@ section#testimonials .purple .rounded {
 }
 
 /* partners section end */
+
+/* benefits section start */
+
+section#benefits h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.card.white {
+    background-color: white;
+    text-align: left;
+}
+
+.card.white i, .card.white h2 {
+    color: #9792E4;
+    font-style: normal;
+}
+
+.card.white button {
+    background-color: #9792E4;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+}
+
+/* benefits section end */
+
+/* about section start */
+
+section#about {
+    line-height: 40px;
+}
+
+section#about .fa-quote-left {
+    color: #9792E4;
+    font-size: 80px;
+    position: absolute;
+    top: 0;
+    right: calc(100% - 2.7em);
+}
+
+section#about h1 {
+    font-size: 48px;
+    color: #9792E4;
+}
+
+section#about .text p {
+    font-size: 18px;
+}
+
+section#about #quote {
+    color: #9792E4;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 32px 48px;
+}
+
+section#about #quote button {
+    color: white;
+    background-color: #9792E4;
+    font-size: 16px;
+}
+
+/* about section end */
 
 
 
