@@ -75,6 +75,16 @@ button:hover {
     section#benefits .card.w-32p {
         width: 49%;
     }
+
+    section#testimonials .purple {
+        flex-direction: row;
+    }
+
+    section#testimonials .purple p,
+    section#testimonials .purple h4 {
+        text-align: left;
+        margin: 32px 48px;
+    }
 }
 
 /* desktop */
@@ -141,6 +151,16 @@ button:hover {
 
     section#planning .white img {
         max-width: 300px;
+    }
+
+    section#testimonials .purple {
+        flex-direction: row;
+    }
+
+    section#testimonials .purple p,
+    section#testimonials .purple h4 {
+        text-align: left;
+        margin: 32px 48px;
     }
 }
 
@@ -327,7 +347,7 @@ section#testimonials .purple img {
 }
 
 section#testimonials .purple .rounded {
-    margin: 32px 48px 32px 24px;
+    margin: 32px 24px;
 }
 
 /* partners section end */
