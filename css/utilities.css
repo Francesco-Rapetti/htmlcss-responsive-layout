@@ -1,6 +1,7 @@
 /* display */
 .flex { display: flex; }
 .block { display: block; }
+.none { display: none; }
 .a-items-center { align-items: center; }
 .a-self-start { align-self: flex-start; }
 .j-content-between { justify-content: space-between; }
@@ -15,6 +16,7 @@
 .ox-auto { overflow: auto; }
 
 /* margin */
+.mt-0 { margin-top: 0px; }
 .mt-8 { margin-top: 8px; }
 .mt-10 { margin-top: 10px; }
 .mt-16 { margin-top: 16px; }
@@ -254,4 +256,7 @@ footer .fa-earth-americas + span {
 
 /* position */
 .relative { position: relative; }
+
+/* other */
+.pointer { cursor: pointer; }
 

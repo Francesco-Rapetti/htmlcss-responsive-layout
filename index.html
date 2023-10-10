@@ -18,22 +18,23 @@
             </div>
 
             <div class="flex a-items-center">
-                <nav>
+                <nav class="none">
                     <a class="mr-24" href="#">Planning</a>
                     <a class="mr-24" href="#">Testimonials</a>
                     <a class="mr-24" href="#">Features</a>
                     <a class="mr-24" href="#">About Us</a>
                 </nav>
-                <button>Get Started</button>
+                <button class="none">Get Started</button>
+                <i class="fas fa-bars color-white fs-22 pointer"></i>
             </div>
         </div>
     </header>
 
     <main>
-        <section>
+        <section id="features">
             <div class="container">
-                <div class="card flex w-66p ta-left">
-                    <div class="w-55p">
+                <div id="demo" class="card flex fd-column ta-left a-items-center mt-0">
+                    <div>
                         <h2>Get a demo application</h2>
                         <p> 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -43,8 +44,8 @@
                         <button class="blue"><i class="fas fab fa-apple"></i>App Store</button>
                     </div>
     
-                    <div class="w-45p">
-                        <img src="img/phone.png" alt="">
+                    <div>
+                        <img class="" src="img/phone.png" alt="">
                     </div>
                 </div>
 
@@ -94,13 +95,13 @@
 
         <section id="planning" class="purple">
             <div class="container">
-                <div class="purple w-50p">
+                <div class="purple">
                     <img class="w-100p" src="img/planning1.png" alt="">
                     <h2>Strategic Planning</h2>
                     <p>Voluptatem odit eius accusamus aperiam, corrupti veniam error architecto vero illo animi molestiae aspernatur modi natus, ad deleniti maiores, doloremque esse fuga? Iste optio odit, aut voluptates consectetur ducimus eius et laudantium saepe modi quae error, voluptas ipsam. Sit nostrum provident iste ad molestiae.</p>
                 </div>
 
-                <div class="white w-45p">
+                <div class="white">
                     <img class="w-100p" src="img/planning2.png" alt="">
                     <h2 class="mt-20">App Developement</h2>
                     <p>
@@ -213,9 +214,7 @@
                     </p>
                     <button class="purple">more</button>
                 </div>
-            </div>
-
-            <div class="container">
+            
                 <div class="card white w-32p">
                     <i>04</i>
                     <h2>Best Pricing</h2>
